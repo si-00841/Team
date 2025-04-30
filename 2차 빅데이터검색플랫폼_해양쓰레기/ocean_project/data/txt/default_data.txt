@@ -1,0 +1,9 @@
+default_data <- data.frame(
+  location = c("Seoul", "Busan", "Incheon"),
+  latitude = c(37.5665, 35.1796, 37.4563),
+  longitude = c(126.9780, 129.0756, 126.7052),
+  year = c(2020, 2020, 2020),  # 전부 2020 하나뿐
+  oil_spill = c(100, 200, 150),
+  chemical_level = c(20, 40, 30),
+  plastic_density = c(5, 10, 8)
+)
